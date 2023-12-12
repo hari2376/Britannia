@@ -1,0 +1,377 @@
+{
+  "component": {
+    "customer_name": "BritanniaBLRMarie",
+    "component_name": "Marie",
+    "component_family": "Britannia"
+  },
+  "physical_camera": {
+    "num_camera": 1,
+    "list": [
+      {
+        "serial_number": "24237770",
+        "pfs_filename": "config/Marie/24237770.pfs",
+        "type": "USB",
+        "physical_camera_id": 1,
+        "virtual_camera_id": 1,
+        "station_id": 1,
+        "line_id": 1,
+        "camera_sensor_time": 1000,
+        "camera_on_time_interval": 5,
+        "pixel_per_mm": 19.67,
+        "processing_type": "image_split",
+        "line_image_crop_coords": [0.19, 0.77, 0.94, 0.94],
+        "sensor_to_image_component_center_mm": [150, 90],
+        "virtual_cameras": [
+          {
+            "serial_number": "24237770_V_1",
+            "virtual_camera_id": 2,
+            "station_id": 1,
+            "line_id": 2,
+            "line_image_crop_coords": [0.0, 0.67, 0.75, 0.83],
+            "sensor_to_image_component_center_mm": [130, 130]
+          },
+          {
+            "serial_number": "24237770_V_2",
+            "virtual_camera_id": 3,
+            "station_id": 1,
+            "line_id": 3,
+            "line_image_crop_coords": [0.19, 0.57, 0.94, 0.73],
+            "sensor_to_image_component_center_mm": [150, 160]
+          },
+          {
+            "serial_number": "24237770_V_3",
+            "virtual_camera_id": 4,
+            "station_id": 1,
+            "line_id": 4,
+            "line_image_crop_coords": [0.0, 0.49, 0.75, 0.65],
+            "sensor_to_image_component_center_mm": [130, 190]
+          },
+          {
+            "serial_number": "24237770_V_4",
+            "virtual_camera_id": 5,
+            "station_id": 1,
+            "line_id": 5,
+            "line_image_crop_coords": [0.19, 0.39, 0.94, 0.55],
+            "sensor_to_image_component_center_mm": [150, 210]
+          },
+          {
+            "serial_number": "24237770_V_5",
+            "virtual_camera_id": 6,
+            "station_id": 1,
+            "line_id": 6,
+            "line_image_crop_coords": [0.0, 0.24, 0.75, 0.45],
+            "sensor_to_image_component_center_mm": [130, 240]
+          },
+          {
+            "serial_number": "24237770_V_6",
+            "virtual_camera_id": 7,
+            "station_id": 1,
+            "line_id": 7,
+            "line_image_crop_coords": [0.19, 0.20, 0.94, 0.37],
+            "sensor_to_image_component_center_mm": [150, 270]
+          },
+          {
+            "serial_number": "24237770_V_7",
+            "virtual_camera_id": 8,
+            "station_id": 1,
+            "line_id": 8,
+            "line_image_crop_coords": [0.0, 0.10, 0.75, 0.26],
+            "sensor_to_image_component_center_mm": [130, 300]
+          },
+          {
+            "serial_number": "24237770_V_8",
+            "virtual_camera_id": 9,
+            "station_id": 1,
+            "line_id": 9,
+            "line_image_crop_coords": [0.19, 0.02, 0.94, 0.18],
+            "sensor_to_image_component_center_mm": [150, 330]
+          }
+        ]
+      }
+    ],
+    "trigger_type": "hardware",
+    "gige_heartbeat": 60,
+    "grab_queue_size": 40,
+    "software_trigger_type": "multiple",
+    "software_trigger_time": [500],
+    "software_virtual_cam_trigger_time": 100,
+    "software_component_feeding_time": 2000,
+    "software_trigger_number": 10
+  },
+  "virtual_camera_additions": {
+    "list": []
+  },
+  "machine": {
+    "sensor": {
+      "num_sensor": 1,
+      "list": [
+        {
+          "module_id": 1,
+          "sensor_filter_time": 250
+        }
+      ]
+    },
+    "light": {
+      "num_light": 2,
+      "list": [
+        {
+          "module_id": 1,
+          "light_mode": 1,
+          "light_sensor_time": 1280,
+          "light_on_time_interval": 10
+        },
+        {
+          "module_id": 2,
+          "light_mode": 1,
+          "light_sensor_time": 1280,
+          "light_on_time_interval": 10
+        }
+      ]
+    },
+    "ejection_station": {
+      "num_ejection_station": 9,
+      "mm_per_bit_shift": 2.0,
+      "list": [
+        {
+          "ejection_purpose": "image_NG",
+          "module_id": 1,
+          "ejection_line_id": 1,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 1000,
+          "ejection_sensor_time": 6700
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 2,
+          "ejection_line_id": 2,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 3,
+          "ejection_line_id": 3,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 4,
+          "ejection_line_id": 4,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 5,
+          "ejection_line_id": 5,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 6,
+          "ejection_line_id": 6,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 7,
+          "ejection_line_id": 7,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 8,
+          "ejection_line_id": 8,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "image_OK",
+          "module_id": 9,
+          "ejection_line_id": 9,
+          "ejection_shift_bit_point": 435,
+          "ejection_on_interval": 600,
+          "ejection_sensor_time": 9200
+        }
+      ]
+    },
+    "plc_set_values": {
+      "pressure_low_interlock_value": 0,
+      "component_decision_fnblock_num": 1
+    }
+  },
+  "decision_engine": {
+    "save_raw_image": "no",
+    "generate_result_image": true,
+    "enable_multiline_decision": true,
+    "send_result_to_UI": true,
+    "component_timeout_time": 4000,
+    "continous_NG_limit": 10000,
+    "num_modules": 1,
+    "modules": [
+      {
+        "module_id": 1,
+        "module_name": "object_detection",
+        "method_name": "predict",
+        "signature_name": "predict_images",
+        "input_var_name_at_server": "images",
+        "serving_response_timeout": 2000,
+        "image_stream_format": "bmp"
+      }
+    ],
+    "image_disposition": [
+      {
+        "virtual_camera_id": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        "processing": [
+          {
+            "module": "object_detection",
+            "common_preprocessing": [
+              {
+                "preproc_module": "multi_level_hough_circle_center_with_range",
+                "template_image_path": "config/Marie/no_masking_template.png",
+                "blur_kernel_size": 5,
+                "multi_level_patch_crop_coords": [
+                  [0.0, 0.0, 0.6, 1.0],
+                  [0.33, 0.0, 1.0, 1.0]
+                ],
+                "phase1_resize_dims": [400, 400],
+                "circle_center_point_range": {
+                  "x": [100, 200],
+                  "y": [100, 200]
+                },
+                "hough_circle_params": [
+                  {
+                    "dp": 0.7,
+                    "hough_min_distance": 400,
+                    "hough_circle_radius": 116,
+                    "deviation_margin": 6,
+                    "param1": 39,
+                    "param2": 19
+                  },
+                  {
+                    "dp": 0.7,
+                    "hough_min_distance": 400,
+                    "hough_circle_radius": 118,
+                    "deviation_margin": 6,
+                    "param1": 39,
+                    "param2": 19
+                  }
+                ],
+                "phase2_resize_dims": [300, 300],
+                "min_circle_radius": 0,
+                "max_circle_radius": 0,
+                "rotation_angle": 0.0,
+                "y_pos_after_crop": 0.0,
+                "x_shift": 0.0,
+                "output_resize_dims": [256, 256]
+              }
+            ],
+            "postprocessing": [
+              {
+                "postproc_module": "classic_thresholding",
+                "mask_image_size": [512, 512],
+                "region_based": []
+              },
+              {
+                "postproc_module": "nms",
+                "iou_threshold": 0.5
+              }
+            ],
+            "num_defects": 5,
+            "defects": [
+              {
+                "module_id": 1,
+                "defect_id": 1,
+                "defect_name": "Defect_1",
+                "unacceptable_class": true,
+                "unacceptable_class_disposition": "OK",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "threshold": 0.7
+              },
+              {
+                "module_id": 1,
+                "defect_id": 2,
+                "defect_name": "Defect_2",
+                "unacceptable_class": true,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": 1,
+                "threshold": 0.7
+              },
+              {
+                "module_id": 1,
+                "defect_id": 3,
+                "defect_name": "Defect_3",
+                "unacceptable_class": false,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "threshold": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 4,
+                "defect_name": "Defect_4",
+                "unacceptable_class": false,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "threshold": 0.8
+              },
+              {
+                "module_id": 1,
+                "defect_id": 5,
+                "defect_name": "Defect_5",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 0.8
+              }
+            ],
+            "object_detection_parameters": {
+              "model_name": "Marie_v1.0.0",
+              "model_version": 1,
+              "image_size": [350, 350]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "mocking": {
+    "mock_camera": "mock_no",
+    "mock_files_folder": "testdata/",
+    "mock_raw_image_folder": "testdata/Marie/raw_images",
+    "mock_preproc_image_folder": "testdata/Marie/raw_images",
+    "bypass_preprocessing": false,
+    "bypass_preproc_copy_index": [],
+    "mock_tfserving_result": "mock_no",
+    "mock_tfserving_folder": "testdata/Marie/objdet_results",
+    "mock_halcon": "mock_yes",
+    "mock_improc_result": "mock_no",
+    "mock_improc_folder": "testdata/Marie/raw_images",
+    "mock_imageaction_outcome": "mock_no",
+    "mock_decision_override": "mock_no",
+    "mock_sensor_decision_override": "mock_no",
+    "mock_decision_timeout": 11000
+  },
+  "debug": {
+    "save_cv_input_image": false,
+    "save_halcon_input_image": false,
+    "save_halcon_output_image": false,
+    "save_cv_output_image": false
+  }
+}

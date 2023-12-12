@@ -1,0 +1,697 @@
+{
+  "component": {
+    "customer_name": "BritanniaBLRMarie",
+    "component_name": "Marie",
+    "component_family": "Britannia"
+  },
+  "physical_camera": {
+    "num_camera": 3,
+    "list": [
+      {
+        "serial_number": "24691862",
+        "pfs_filename": "config/Marie/24691862.pfs",
+        "camera_mfg": "Basler",
+        "type": "GigE",
+        "physical_camera_id": 1,
+        "virtual_camera_id": 1,
+        "station_id": 1,
+        "line_id": 1,
+        "camera_sensor_time": 125,
+        "camera_on_time_interval": 5,
+        "pixel_per_mm": 4.29,
+        "virtual_cameras": []
+      },
+      {
+        "serial_number": "24691861",
+        "pfs_filename": "config/Marie/24691861.pfs",
+        "camera_mfg": "Basler",
+        "type": "GigE",
+        "physical_camera_id": 2,
+        "virtual_camera_id": 2,
+        "station_id": 2,
+        "line_id": 1,
+        "camera_sensor_time": 125,
+        "camera_on_time_interval": 5,
+        "pixel_per_mm": 4.29,
+        "virtual_cameras": []
+      },
+      {
+        "serial_number": "24691948",
+        "pfs_filename": "config/Marie/24691948.pfs",
+        "camera_mfg": "Basler",
+        "type": "GigE",
+        "physical_camera_id": 3,
+        "virtual_camera_id": 3,
+        "station_id": 3,
+        "line_id": 1,
+        "camera_sensor_time": 125,
+        "camera_on_time_interval": 5,
+        "pixel_per_mm": 4.29,
+        "virtual_cameras": []
+      }
+    ],
+    "trigger_type": "hardware",
+    "gige_heartbeat": 1,
+    "grab_queue_size": 40,
+    "software_trigger_type": "multiple",
+    "software_trigger_time": [500],
+    "software_virtual_cam_trigger_time": 100,
+    "software_component_feeding_time": 2000,
+    "software_trigger_number": 1
+  },
+  "virtual_camera_additions": {
+    "list": []
+  },
+  "machine": {
+    "sensor": {
+      "num_sensor": 1,
+      "list": [
+        {
+          "module_id": 1,
+          "sensor_filter_time": 100
+        }
+      ]
+    },
+    "light": {
+      "num_light": 2,
+      "list": [
+        {
+          "module_id": 1,
+          "light_mode": 1,
+          "light_sensor_time": 1280,
+          "light_on_time_interval": 10
+        },
+        {
+          "module_id": 2,
+          "light_mode": 1,
+          "light_sensor_time": 1280,
+          "light_on_time_interval": 10
+        }
+      ]
+    },
+    "ejection_station": {
+      "num_ejection_station": 26,
+      "mm_per_bit_shift": 2.31,
+      "list": [
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 1,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 6700
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 2,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 3,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 4,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 5,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 6,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 7,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 8,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 9,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 10,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 11,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 6700
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 12,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 13,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 14,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 15,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 16,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 17,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 18,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 19,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 20,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 21,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 6700
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 22,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 23,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 24,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 25,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 26,
+          "ejection_shift_bit_point": 415,
+          "ejection_on_interval_ng": 150,
+          "ejection_on_interval_unsure": 150,
+          "ejection_sensor_time": 9200
+        },
+        {
+          "ejection_purpose": "Biscuit_NG",
+          "module_id": 27,
+          "ejection_shift_bit_point": 406,
+          "ejection_on_interval_ng": 0,
+          "ejection_on_interval_unsure": 0,
+          "ejection_sensor_time": 9200
+        }
+      ]
+    },
+    "plc_set_values": {
+      "pressure_low_interlock_value": 1,
+      "component_decision_fnblock_num": 40,
+      "senor_bypass_filter": 10,
+      "unsure_ejection_enable_disable": 0,
+      "odd_lines_result_check_position": 1,
+      "even_lines_result_check_position": 1
+    },
+    "grid_to_value_map": {
+      "total_number_of_grid_rows": 40,
+      "total_number_of_valve_columns": 27,
+      "each_grid_has_16_bit_register_occupied": 2,
+      "first_component_first_camera_image_first_grid_first_register": 840,
+      "sanity_check_lines_unused": 2
+    }
+  },
+  "decision_engine": {
+    "send_result_to_UI": true,
+    "component_timeout_time": 4000,
+    "continous_NG_limit": 10000,
+    "num_modules": 1,
+    "modules": [
+      {
+        "module_id": 1,
+        "module_name": "object_detection",
+        "method_name": "predict",
+        "signature_name": "serving_default",
+        "input_var_name_at_server": "images",
+        "serving_response_timeout": 2000,
+        "image_stream_format": "bmp"
+      },
+      {
+        "module_id": 2,
+        "module_name": "aql_disposition",
+        "process_level": ["component"]
+      }
+    ],
+    "image_disposition": [
+      {
+        "virtual_camera_id": [1,2,3],
+        "processing": [
+          {
+            "module": "object_detection",
+            "common_preprocessing": [
+              {
+                "preproc_module": "simple_cropping",
+                "mask_template_img_path": "config/Marie/no_masking_template.png",
+                "patch_crop_coords": [0.0, 0.0, 1.0, 1.0],
+                "output_resize_dims": [-1, -1]
+              }
+            ],
+            "postprocessing": [
+              {
+                "postproc_module": "classic_thresholding",
+                "mask_image_size": [256, 256],
+                "region_based": []
+              },
+              {
+                "postproc_module": "nms",
+                "iou_threshold": 0.5
+              }
+            ],
+            "customer_postprocessing": {
+              "circle_detection": {
+                "use_raw_image_for_circle_detection": true,
+                "blur_kernel_size": 7,
+                "phase_1_resize_dimensions": [1536, 512],
+                "hough_transform": {
+                  "dp": 1,
+                  "hough_min_distance": 170,
+                  "hough_circle_radius": 75,
+                  "deviation_margin": 7,
+                  "param1": 30,
+                  "param2": 19
+                },
+                "min_circle_radius": 0,
+                "max_circle_radius": 0
+              },
+              "predictions_to_rectangle": {
+                "percentage_of_prediction_rect_intersect_in_circle": 0.5
+              }
+            },
+            "num_defects": 15,
+            "defects": [
+              {
+                "module_id": 1,
+                "defect_id": 1,
+                "defect_name": "edgecut_biscuit",
+                "unacceptable_class": true,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "threshold": 0.1,
+                "threshold_mask_1": 0.1
+              },
+              {
+                "module_id": 1,
+                "defect_id": 2,
+                "defect_name": "double_biscuit",
+                "unacceptable_class": false,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": 1,
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 3,
+                "defect_name": "edge_fold_biscuit",
+                "unacceptable_class": true,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "threshold": 0.3,
+                "threshold_mask_1": 0.3
+              },
+              {
+                "module_id": 1,
+                "defect_id": 4,
+                "defect_name": "deep_cut_biscuit",
+                "unacceptable_class": false,
+                "unacceptable_class_disposition": "NG",
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 5,
+                "defect_name": "milkspray_dots",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 0.5,
+                "threshold_mask_1": 0.5
+              },
+              {
+                "module_id": 1,
+                "defect_id": 6,
+                "defect_name": "edge_dark",
+                "unacceptable_class": true,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 0.8,
+                "threshold_mask_1": 0.8
+              },
+              {
+                "module_id": 1,
+                "defect_id": 7,
+                "defect_name": "joint_biscuit",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 8,
+                "defect_name": "wrinkle_biscuit",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 9,
+                "defect_name": "folded_biscuit",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 10,
+                "defect_name": "Defect_10",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 11,
+                "defect_name": "Defect_11",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 12,
+                "defect_name": "Defect_12",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 13,
+                "defect_name": "Defect_13",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 14,
+                "defect_name": "Defect_14",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              },
+              {
+                "module_id": 1,
+                "defect_id": 15,
+                "defect_name": "Defect_15",
+                "unacceptable_class": false,
+                "min_counts_for_rejection": 1,
+                "min_counts_for_acceptance": -1,
+                "unacceptable_class_disposition": "NG",
+                "threshold": 1.0,
+                "threshold_mask_1": 1.0
+              }
+            ],
+            "object_detection_parameters": {
+              "model_name": "2023_09_13_Britannia_Marie_D2.0.0_v3.0.0",
+              "model_version": 1,
+              "image_size": [256, 256]
+            }
+          }
+        ]
+      }
+    ],
+    "aql_disposition": [
+      {
+        "module_name": "customer_module",
+        "module_description": "defect_preds_mapping_according_to_line",
+        "process_level": "component",
+        "process_type": "multiple_images",
+        "grid_starts_from_bottom_line_of_image": true,
+        "image_to_line_range_coords": [
+          {
+            "physical_camera_id": 1,
+            "image_size": [512, 1536],
+            "image_to_number_of_grid_rows": 40,
+            "line_coords_px": {
+              "9": [0, 0, 512, 170],
+              "8": [0, 171, 512, 341],
+              "7": [0, 342, 512, 512],
+              "6": [0, 513, 512, 683],
+              "5": [0, 684, 512, 854],
+              "4": [0, 855, 512, 1025],
+              "3": [0, 1026, 512, 1196],
+              "2": [0, 1197, 512, 1367],
+              "1": [0, 1368, 512, 1536]
+            },
+            "line_coords_norm_unused": {
+              "9": [0.0000, 0.0000, 1.0000, 0.1107],
+              "8": [0.0000, 0.1113, 1.0000, 0.2220],
+              "7": [0.0000, 0.2227, 1.0000, 0.3333],
+              "6": [0.0000, 0.3340, 1.0000, 0.4447],
+              "5": [0.0000, 0.4453, 1.0000, 0.5560],
+              "4": [0.0000, 0.5566, 1.0000, 0.6673],
+              "3": [0.0000, 0.6680, 1.0000, 0.7786],
+              "2": [0.0000, 0.7793, 1.0000, 0.8900],
+              "1": [0.0000, 0.8906, 1.0000, 1.0000]
+            }
+          },
+          {
+            "physical_camera_id": 2,
+            "image_size": [512, 1536],
+            "image_to_number_of_grid_rows": 40,
+            "line_coords_px": {
+              "18": [0, 0, 512, 170],
+              "17": [0, 171, 512, 341],
+              "16": [0, 342, 512, 512],
+              "15": [0, 513, 512, 683],
+              "14": [0, 684, 512, 854],
+              "13": [0, 855, 512, 1025],
+              "12": [0, 1026, 512, 1196],
+              "11": [0, 1197, 512, 1367],
+              "10": [0, 1368, 512, 1536]
+            },
+            "line_coords_norm_unused": {
+              "18": [0.0000, 0.0000, 1.0000, 0.1107],
+              "17": [0.0000, 0.1113, 1.0000, 0.2220],
+              "16": [0.0000, 0.2227, 1.0000, 0.3333],
+              "15": [0.0000, 0.3340, 1.0000, 0.4447],
+              "14": [0.0000, 0.4453, 1.0000, 0.5560],
+              "13": [0.0000, 0.5566, 1.0000, 0.6673],
+              "12": [0.0000, 0.6680, 1.0000, 0.7786],
+              "11": [0.0000, 0.7793, 1.0000, 0.8900],
+              "10": [0.0000, 0.8906, 1.0000, 1.0000]
+            }
+          },
+          {
+            "physical_camera_id": 3,
+            "image_size": [512, 1536],
+            "image_to_number_of_grid_rows": 40,
+            "line_coords_px": {
+              "27": [0, 0, 512, 170],
+              "26": [0, 171, 512, 341],
+              "25": [0, 342, 512, 512],
+              "24": [0, 513, 512, 683],
+              "23": [0, 684, 512, 854],
+              "22": [0, 855, 512, 1025],
+              "21": [0, 1026, 512, 1196],
+              "20": [0, 1197, 512, 1367],
+              "19": [0, 1368, 512, 1536]
+            },
+            "line_coords_norm_unused": {
+              "27": [0.0000, 0.0000, 1.0000, 0.1107],
+              "26": [0.0000, 0.1113, 1.0000, 0.2220],
+              "25": [0.0000, 0.2227, 1.0000, 0.3333],
+              "24": [0.0000, 0.3340, 1.0000, 0.4447],
+              "23": [0.0000, 0.4453, 1.0000, 0.5560],
+              "22": [0.0000, 0.5566, 1.0000, 0.6673],
+              "21": [0.0000, 0.6680, 1.0000, 0.7786],
+              "20": [0.0000, 0.7793, 1.0000, 0.8900],
+              "19": [0.0000, 0.8906, 1.0000, 1.0000]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "mocking": {
+    "mock_files_folder": "testdata/",
+    "mock_raw_image_folder": "testdata/Marie/raw_images",
+    "mock_preproc_image_folder": "testdata/Marie/raw_images",
+    "bypass_preprocessing": false,
+    "bypass_preprocessing_use_raw_images": false,
+    "mock_tfserving_result": "mock_no",
+    "mock_tfserving_folder": "testdata/Marie/objdet_results",
+    "mock_decision_override": "mock_no",
+    "mock_decision_timeout": 11000
+  },
+  "debug": {
+    "save_cv_input_image": false,
+    "save_halcon_input_image": false,
+    "save_halcon_output_image": false,
+    "save_cv_output_image": false
+  },
+  "visualize": {
+    "image": {
+      "save_raw_image": false,
+      "save_preprocess_image": true,
+      "save_preprocess_aux_image": true,
+      "save_result_image": true,
+      "save_debug_image": false,
+      "save_decision_raw_image": "pending"
+    },
+    "serving": {
+      "tfserving_raw_predictions": false,
+      "tfserving_result_predictions": false
+    }
+  }
+}
